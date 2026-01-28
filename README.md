@@ -1,1 +1,1 @@
-# implicit-likelihood-ratio-transformer
+# Implicit Statistical Reasoning in Transformers: Emergence of Likelihood-Ratio Tests In-Context
