@@ -6,8 +6,7 @@
 
 We recommend using `uv` for dependency management.
 
-```
-bash
+```bash
 pip install uv
 uv sync
 ```
