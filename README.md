@@ -11,6 +11,21 @@ bash
 pip install uv
 uv sync
 ```
+## Overview 
+
+This repository contains the code accompanying our study of **implicit statistical inference in transformers**, focusing on how in-context learning (ICL) models approximate **Bayes-optimal likelihood ratio tests (LLRs)** on synthetic classification tasks.
+
+We investigate *what transformers learn*, *how they implement decision rules*, and *which internal circuits support statistical inference*, using a combination of controlled data generation, architectural ablations, and mechanistic probes.
+
+Transformers trained via in-context learning can solve non-trivial statistical decision problems without explicit parameter updates. In this project, we study whether — and how — transformers:
+
+- implement **Bayes-optimal decision rules**
+- internally represent **likelihood ratios**
+- rely on specific **attention/value (OV) circuits**
+- generalize **out-of-distribution** with respect to nuisance parameters
+
+We focus on two analytically tractable binary classification tasks with known optimal LLRs and probe trained models using regression, logit lens analysis, kernel comparisons, and attention-circuit alignment.
+
 
 ## Tasks
 
