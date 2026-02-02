@@ -1,4 +1,4 @@
-# Implicit Statistical Reasoning in Transformers: Emergence of Likelihood-Ratio Tests In-Context
+# Implicit Statistical Inference in Transformers: Approximating Likelihood-Ratio Tests In-Context
 ## Installation
 
 **Requirements**
